@@ -123,7 +123,7 @@ int main(){
 }
 ```
 ---
-## 8.
+## 8. To find greatest of three entered numbers
 
 ```C
 #include<stdio.h>
@@ -148,7 +148,7 @@ int main(){
 }
 ```
 ---
-## 9
+## 9. To print grade of a student by entering marks
 
 ```C
 #include<stdio.h>
@@ -184,7 +184,7 @@ int main(){
 }
 ```
 ---
-## 10
+## 10. To find roots of entered quadratic equation
 ```C
 #include<stdio.h>
 #include<math.h>
@@ -216,7 +216,7 @@ int main(){
 }
 ```
 ---
-## 11
+## 11. To check whether entered year is leap year or not
 ```C
 #include<stdio.h>
 int main(){
@@ -233,11 +233,11 @@ int main(){
 }
 ```
 ---
-## 12
+## 12. To generate table of 5
 ```C
 #include<stdio.h>
 int main(){
-    int x;     // it can be declared in initialization of for loop
+    int x;
     for(x=0;x<=10;x++){
         printf("5 X %d = %d \n",x,5*x);
     }
@@ -245,7 +245,7 @@ int main(){
 }
 ```
 ---
-## 14
+## 14. To calculate reverse of a number
 ```C
 #include <stdio.h>
 int main(){
@@ -264,7 +264,7 @@ int main(){
 }
 ```
 ---
-## 15
+## 15. To check whether a number is palindrome or not
 ```C
 #include <stdio.h>
 int main(){
@@ -288,7 +288,7 @@ int main(){
 }
 ```
 ---
-## 16
+## 16. To check whether a number is prime or not
 ```C
 #include<stdio.h>
 int main(){
@@ -311,14 +311,12 @@ int main(){
 }
 ```
 ---
-## 17
+## 17. To print all prime numbers between 1 to 100
 ```C
 #include<stdio.h>
 int main(){
-    int nums,a,b,x,i;
-    printf("Enter number :- ");
-    scanf("%d",&nums);
-    for(x=1;x<=nums;x++){  
+    int a,x,i;
+    for(x=1;x<=100;x++){  
         a=0;
         for(i=1;i<=x;i++){
             if (x%i==0){
@@ -333,7 +331,7 @@ int main(){
 }
 ```
 ---
-## 18
+## 18. To check whether a number is armstrong or not
 ```C
 #include<stdio.h>
 int main(){
@@ -356,7 +354,7 @@ int main(){
 }
 ```
 ---
-## 19
+## 19. A program to generate given patterns
 ```C
 #include<stdio.h>
 int main(){
@@ -500,7 +498,7 @@ int main(){
 }
 ```
 ---
-## 20
+## 20. To find largest number in 1 dimentional array
 ```C
 #include<stdio.h>
 int main(){
@@ -526,7 +524,7 @@ int main(){
 }
 ```
 ---
-## 27
+## 27. To calculate factorial of entered number
 ```C
 #include<stdio.h>
 int main(){
@@ -546,7 +544,7 @@ int main(){
 }
 ```
 ---
-## 28
+## 28. Program to print febonacci series
 ```C
 #include<stdio.h>
 int main(){
