@@ -1,5 +1,5 @@
 # Avninder-1915305
-![GNDEC LOGO]()
+![](Gndec.jpg)
 
 # My Details
 
