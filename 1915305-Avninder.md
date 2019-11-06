@@ -199,7 +199,6 @@ int main(){
     printf("Enter value of c :- ");
     scanf("%d",&c);
     d = (b * b) - 4*a*c;
-    printf("%d",d);
     z = pow(d,0.5);
     if(a==0){
         printf("equation is not quadratic equation");
