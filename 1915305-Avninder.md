@@ -345,7 +345,12 @@ int main(){
         num=num+(i*i*i);
         n/=10;
     }
-    printf("%d",num);
+    if(n==num){
+        printf("Entered number is an armstrong number");
+    }
+    else{
+        printf("Entered number is not an armstrong number");
+    }
     return 0;
 }
 ```
