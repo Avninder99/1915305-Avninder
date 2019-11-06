@@ -340,12 +340,13 @@ int main(){
     int n,i,a,num=0;
     printf("Enter Number :-\n");
     scanf("%d",&n);
+    a=n;
     while(n!=0){
         i=n%10;
         num=num+(i*i*i);
         n/=10;
     }
-    if(n==num){
+    if(a==num){
         printf("Entered number is an armstrong number");
     }
     else{
