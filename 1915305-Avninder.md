@@ -2,6 +2,9 @@
 ![](Gndec.jpg)
 
 # My Details
+### Name :- Avninder Preet Singh
+### Branch :- CSE C1
+### Roll number :- 1915305
 
 ## 1. To Print your name using puts
 
