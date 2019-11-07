@@ -30,6 +30,7 @@ int main(){
     return 0;
 }
 ```
+![](/images/2.jpg)
 ---
 ## 3. Addition of two numbers input by user
 
@@ -46,6 +47,7 @@ int main(){
     return 0;
 }
 ```
+![](/images/3.jpg)
 ---
 ## 4. Program to compute quotient and remainder
 
@@ -64,6 +66,7 @@ int main(){
     return 0;
 }
 ```
+![](/images/4.jpg)
 ---
 ## 5. Program to swap two numbers without third variable
 
@@ -82,6 +85,7 @@ int main(){
     return 0;
 }
 ```
+![](/images/5.jpg)
 ---
 ## 6. Program to check number is even or odd
 
@@ -100,6 +104,7 @@ int main(){
     return 0;
 }
 ```
+![](/images/6.jpg)
 ---
 ## 7. Finding greatest of two numbers
 
@@ -123,6 +128,7 @@ int main(){
     return 0;
 }
 ```
+![](/images/7.jpg)
 ---
 ## 8. To find greatest of three entered numbers
 
@@ -148,6 +154,7 @@ int main(){
     return 0;
 }
 ```
+![](/images/8.jpg)
 ---
 ## 9. To print grade of a student by entering marks
 
@@ -184,6 +191,7 @@ int main(){
     return 0;
 }
 ```
+![](/images/9.jpg)
 ---
 ## 10. To find roots of entered quadratic equation
 ```C
@@ -215,6 +223,7 @@ int main(){
     return 0;
 }
 ```
+![](/images/10.jpg)
 ---
 ## 11. To check whether entered year is leap year or not
 ```C
@@ -232,6 +241,7 @@ int main(){
     return 0;
 }
 ```
+![](/images/11.jpg)
 ---
 ## 12. To generate table of 5
 ```C
@@ -244,6 +254,7 @@ int main(){
     return 0;
 }
 ```
+![](/images/12.jpg)
 ---
 ## 13.
 ```C
@@ -300,6 +311,7 @@ int main(){
     return 0;
 }
 ```
+![](/images/14.jpg)
 ---
 ## 15. To check whether a number is palindrome or not
 ```C
@@ -324,6 +336,7 @@ int main(){
     return 0;
 }
 ```
+![](/images/15.jpg)
 ---
 ## 16. To check whether a number is prime or not
 ```C
@@ -347,6 +360,7 @@ int main(){
     return 0;
 }
 ```
+![](/images/16.jpg)
 ---
 ## 17. To print all prime numbers between 1 to 100
 ```C
@@ -367,6 +381,7 @@ int main(){
     return 0;
 }
 ```
+![](/images/17.jpg)
 ---
 ## 18. To check whether a number is armstrong or not
 ```C
@@ -390,6 +405,7 @@ int main(){
     return 0;
 }
 ```
+![](/images/18.jpg)
 ---
 ## 19. A program to generate given patterns
 ```C
@@ -534,6 +550,7 @@ int main(){
     return 0;
 }
 ```
+![](/images/19.jpg)
 ---
 ## 20. To find largest number in 1 dimentional array
 ```C
@@ -560,6 +577,7 @@ int main(){
     return 0;
 }
 ```
+![](/images/20.jpg)
 ---
 ## 27. To calculate factorial of entered number
 ```C
@@ -580,6 +598,7 @@ int main(){
     return 0;
 }
 ```
+![](/images/27.jpg)
 ---
 ## 28. Program to print febonacci series
 ```C
@@ -600,6 +619,7 @@ int main(){
     return 0;
 }
 ```
+![](/images/28.jpg)
 ## 34. 
 ```C
 #include <stdio.h>
@@ -612,3 +632,4 @@ int main() {
   return 0;
 }
 ```
+![](/images/34.jpg)
