@@ -244,6 +244,43 @@ int main(){
 }
 ```
 ---
+## 13.
+```C
+#include <stdio.h>
+ 
+int main() {
+	char Operator;
+	float num1, num2, result;	
+	printf("\n Please Enter the Values for two Operands: num1 and num2  :  ");
+	scanf("%f", &num1);	
+	printf("Please Enter an Operator :- ");
+	scanf("%c", &Operator);
+	printf("\n Please Enter the Values for two Operands: num1 and num2  :  ");
+	scanf("%f", &num2);
+	switch(Operator)
+			{
+  			case '+':
+  				result = num1 + num2;
+  				break;
+  			case '-':
+  				result = num1 - num2;
+  				break;  			
+  			case '*':
+  				result = num1 * num2;
+  				break;
+  			case '/':
+  				result = num1 / num2;
+  				break;
+			default:
+				printf("You have entered an Invalid Operator ");				    			
+			}
+
+printf("The result of %.1f %c %.1f  = %.2f", num1, Operator, num2, result);
+
+return 0;
+}
+```
+---
 ## 14. To calculate reverse of a number
 ```C
 #include <stdio.h>
