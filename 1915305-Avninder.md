@@ -599,3 +599,15 @@ int main(){
     return 0;
 }
 ```
+## 34. 
+```C
+#include <stdio.h>
+int main() {
+  int variable;
+  int *pointer;
+  variable = 99;
+  pointer = &variable;
+  printf("Address of variable = %p", &pointer);
+  return 0;
+}
+```
