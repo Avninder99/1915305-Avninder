@@ -17,6 +17,7 @@ int main(){
     return 0;
 }
 ```
+![](/images/1.jpg)
 ---
 ## 2. To print college address
 
