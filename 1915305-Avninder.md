@@ -580,6 +580,26 @@ int main(){
 ```
 ![](/images/20.jpg)
 ---
+## 21. 
+```C
+#include<stdio.h>
+int main(){
+        int n1,sum=0;
+        printf("Enter natural number till which you want sum of the numbers:- ");
+        scanf("%d",&n1);
+        int arr1[n1];
+        for(int x=1;x<=n1;x++){
+                arr1[x-1]=x;
+        }
+        for(int y=1;y<=n1;y++){
+                sum=sum+arr1[y-1];
+        }
+        printf("Sum of %d natural numbers is %d \n",n1,sum);
+        return 0;
+}
+```
+![](/images/21.jpg)
+---
 ## 27. To calculate factorial of entered number
 ```C
 #include<stdio.h>
