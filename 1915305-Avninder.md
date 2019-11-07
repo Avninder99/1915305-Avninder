@@ -360,7 +360,8 @@ int main(){
     return 0;
 }
 ```
-![](/images/16.jpg)
+![](/images/16(i).jpg)
+![](/images/16(ii).jpg)
 ---
 ## 17. To print all prime numbers between 1 to 100
 ```C
