@@ -315,10 +315,10 @@ int main(){
         n /= 10;
     }
     if(rn == n1){
-        printf("Number is Palandromic");
+        printf("Number is Palindromic");
     }
     else{
-        printf("Number is not Palandromic");
+        printf("Number is not Palindromic");
     }
     return 0;
 }
