@@ -642,6 +642,46 @@ int main(){
 ```
 ![](/images/28.jpg)
 ---
+## 32.
+```C
+#include<stdio.h>                                                               
+                                                                             
+struct student{                                                                 
+  char name[15],address[30];                                                    
+  int roll,grade;                                                               
+};                                                                              
+int main(){                                                                     
+        int n1,i;                                                               
+        printf("Enter number of students:- ");                                  
+        scanf("%d",&n1);                                                        
+        struct student s[n1];                                                   
+        for(i=0;i<n1;i++){                                                      
+                printf("\n");                                                   
+                printf("Enter records for student[%d]\n",i+1);                  
+                printf("Enter name:- ");                                        
+                scanf("%s",s[i].name);                                          
+                printf("Enter address:- ");                                     
+                scanf("%s",s[i].address);                                       
+                printf("Enter Class 'in numbers':- ");                          
+                scanf("%d",&s[i].grade);                                        
+                printf("roll number:- ");                                       
+                scanf("%d",&s[i].roll);                                         
+        }                                                                       
+        printf("\n");                                                           
+        printf("Records of the students are here \n");                          
+        for(i=0;i<n1;i++){                                                      
+                printf("Student %d\n",i+1);                                     
+                printf("Name:- %s\n",s[i].name);                                
+                printf("Address:- %s\n",s[i].address);                          
+                printf("Class :- %d\n",s[i].grade);                             
+                printf("Roll No.:- %d\n",s[i].roll);                            
+                printf("\n");                                                   
+        }                                                                       
+        return 0;                                                               
+}
+```
+![](/images/32.jpg)
+---
 ## 33.
 ```C
 #include<stdio.h>                                                               
