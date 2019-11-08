@@ -644,8 +644,7 @@ int main(){
 ---
 ## 32.
 ```C
-#include<stdio.h>                                                               
-                                                                             
+#include<stdio.h>
 struct student{                                                                 
   char name[15],address[30];                                                    
   int roll,grade;                                                               
