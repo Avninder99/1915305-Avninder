@@ -988,7 +988,8 @@ int main(){
         return 0;
 }
 ```
-![](/images/30.jpg)
+![](/images/30i.jpg)
+![](/images/30ii.jpg)
 ---
 ## 31. Program to implement bubble sort
 ```C
