@@ -681,6 +681,57 @@ int main(){
 ```
 ![](/images/23.jpg)
 ---
+## 26.
+```C
+// Call by refernce
+#include <stdio.h>
+void swap(int*, int*);
+
+int main(){
+        int a,b; 
+        printf("Enter the value of a:- ");
+        scanf("%d",&a);
+        printf("Enter the value of b:- ");
+        scanf("%d",&b);
+        printf("a = %d\n", a);
+        printf("b = %d\n", b);
+        swap(&a, &b); 
+        printf("Swapped values\n");
+        printf("a = %d\n", a);
+        printf("b = %d\n", b);
+        return 0;
+}
+
+void swap(int *x, int *y){
+        int temp;
+        temp = *y;
+        *y = *x;
+        *x = temp;
+}
+
+// Call by value
+#include<stdio.h>
+int swap(int x,int y){
+        int temp=x;
+        x=y;
+        y=temp;
+        printf("a = %d,b = %d\n",x,y);
+}
+int main(){
+        int a,b;
+        printf("Enter 1st number ('a') :- ");
+        scanf("%d",&a);
+        printf("Enter 2nd number ('b') :- ");
+        scanf("%d",&b);
+        printf("a = %d,b = %d\n",a,b);
+        printf("Swapped values :- \n");
+        swap(a,b);
+        return 0;
+}
+```
+![](/images/26i.jpg)
+![](/images/26ii.jpg)
+---
 ## 27. To calculate factorial of entered number
 ```C
 #include<stdio.h>
