@@ -867,3 +867,22 @@ int main() {
 }
 ```
 ![](/images/34.jpg)
+---
+## 35.
+```C
+#include <stdio.h>
+int main(){
+        int data[5],i;
+        printf("Enter 5 elements:- \n");
+        for(i = 0; i < 5; ++i){
+                scanf("%d", data + i);
+        }
+        printf("5 Elements you entered:- \n");
+        for(i = 0; i < 5; ++i){
+                printf("%d\n", *(data + i));
+        }
+        return 0;
+}
+```
+![](/images/35.jpg)
+---
