@@ -681,6 +681,32 @@ int main(){
 ```
 ![](/images/23.jpg)
 ---
+## 24. 
+```C
+#include<stdio.h>
+#include <string.h>
+int main() {
+        char string[100];
+        int i,n,c=0;
+        printf("Enter  the string:- ");
+        scanf("%s",string);
+        n=strlen(string);
+        for(i=0;i<n/2;i++){
+                if(string[i]==string[n-i-1]){
+                        c++;
+                }
+        }
+        if(c==i){
+                printf("string is palindrome");
+        }
+        else{
+                printf("string is not palindrome");
+        }
+        return 0;
+}
+```
+![](/images/24.jpg)
+---
 ## 26.
 ```C
 // Call by refernce
