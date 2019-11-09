@@ -772,6 +772,28 @@ int main(){
 ```
 ![](/images/28.jpg)
 ---
+## 29. 
+```C
+#include<stdio.h>
+int avg(int a1,int a2,int a3,int a4,int a5){
+        int result; 
+        result=(a1+a2+a3+a4+a5)/5;
+        return result;
+}
+int main(){
+        int n1,n2,n3,n4,n5,average;
+        printf("Enter 5 numbers:-\n");
+        scanf("%d",&n1);
+        scanf("%d",&n2);
+        scanf("%d",&n3);
+        scanf("%d",&n4);
+        scanf("%d",&n5);
+        average=avg(n1,n2,n3,n4,n5);
+        printf("Average of the numbers is :-  %d",average);
+        return 0; 
+}
+```
+![](/images/29.jpg)
 ## 32. Program to store information of students using array of structures
 ```C
 #include<stdio.h>
