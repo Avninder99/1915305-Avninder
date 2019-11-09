@@ -1,5 +1,5 @@
 # Avninder-1915305
-![](Gndec.jpg)
+![](/images/Gndec.jpg)
 
 # My Details
 ### Name :- Avninder Preet Singh
