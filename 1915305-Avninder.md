@@ -580,7 +580,7 @@ int main(){
 ```
 ![](/images/20.jpg)
 ---
-## 21. 
+## 21. To find sum of 'n' natural numbers in an array
 ```C
 #include<stdio.h>
 int main(){
@@ -600,7 +600,7 @@ int main(){
 ```
 ![](/images/21.jpg)
 ---
-## 22.
+## 22. Program to add two matrices
 ```C
 #include <stdio.h>
 int main() {
@@ -631,6 +631,55 @@ int main() {
 }
 ```
 ![](/images/22.jpg)
+---
+## 23. Program to multiply two matrices
+```C
+#include <stdio.h>
+int main(){
+        int m, n, p, q, c, d, k, sum = 0;
+        int first[10][10], second[10][10],   multiply[10][10];
+        printf("Enter number of rows and columns of first matrix\n");
+        scanf("%d%d", &m, &n);
+        printf("Enter elements of first matrix\n");
+        for (c=0;c<m;c++){
+                for (d=0;d<n;d++){
+                        scanf("%d", &first[c][d]);
+                }
+        }
+        printf("Enter number of rows and columns of second matrix\n");
+        scanf("%d%d", &p, &q);
+        if (n != p){
+                printf("The matrices can't be multiplied with each other\n");
+        }
+        else{
+                printf("Enter elements of second matrix\n");
+        
+                for (c=0;c<p;c++){
+                        for (d=0;d<q;d++){
+                                scanf("%d", &second[c][d]);
+                        }
+                }
+                for(c=0;c<m;c++){
+                        for (d=0;d<q;d++){
+                                for (k=0;k<p;k++){
+                                        sum = sum + first[c][k]*second[k][d];
+                                }
+                                multiply[c][d] = sum;
+                                sum = 0;
+                        }
+                }
+                printf("Product of the matrices:\n");
+                for (c=0;c<m;c++) {
+                        for (d=0;d<q;d++){
+                                printf("%d\t", multiply[c][d]);
+                        }
+                        printf("\n");
+                }
+        }
+        return 0;
+}
+```
+![](/images/23.jpg)
 ---
 ## 27. To calculate factorial of entered number
 ```C
@@ -674,7 +723,7 @@ int main(){
 ```
 ![](/images/28.jpg)
 ---
-## 32.
+## 32. Program to store information of students using array of structures
 ```C
 #include<stdio.h>
 struct student{                                                                 
@@ -713,7 +762,7 @@ int main(){
 ```
 ![](/images/32.jpg)
 ---
-## 33.
+## 33. Programs to find transpose of a matrix
 ```C
 #include<stdio.h>                                                               
 int main()                                                                      
@@ -756,7 +805,7 @@ int main()
 ```
 ![](/images/33.jpg)
 ---
-## 34. 
+## 34. Program to print the address of variable using pointer
 ```C
 #include <stdio.h>
 int main() {
