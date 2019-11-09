@@ -686,7 +686,6 @@ int main(){
 // Call by refernce
 #include <stdio.h>
 void swap(int*, int*);
-
 int main(){
         int a,b; 
         printf("Enter the value of a:- ");
@@ -701,7 +700,6 @@ int main(){
         printf("b = %d\n", b);
         return 0;
 }
-
 void swap(int *x, int *y){
         int temp;
         temp = *y;
