@@ -271,19 +271,19 @@ int main() {
 	switch(Operator[0]){
   			case '+':
   				result = num1 + num2;
-                printf("Result is %.1f",result);
+           			printf("Result is %.1f",result);
   				break;
   			case '-':
   				result = num1 - num2;
-                printf("Result is %.1f",result);
+                		printf("Result is %.1f",result);
   				break;  			
   			case '*':
   				result = num1 * num2;
-                printf("Result is %.1f",result);
+                		printf("Result is %.1f",result);
   				break;
   			case '/':
   				result = num1 / num2;
-                printf("Result is %.1f",result);
+                		printf("Result is %.1f",result);
   				break;
 			default:
 				printf("You have entered an Invalid Operator ");				    			
