@@ -259,39 +259,39 @@ int main(){
 ## 13. To make simple calculator using switch statements
 ```C
 #include <stdio.h>
- 
 int main() {
-	char Operator;
+	char Operator[1];
 	float num1, num2, result;	
-	printf("\n Please Enter the Values for two Operands: num1 and num2  :  ");
+	printf("Enter the Values of first number:- ");
 	scanf("%f", &num1);	
-	printf("Please Enter an Operator :- ");
-	scanf("%c", &Operator);
-	printf("\n Please Enter the Values for two Operands: num1 and num2  :  ");
+	printf("Enter an Operator:- ");
+	scanf("%s", Operator);
+	printf("Enter the Values of second number:- ");
 	scanf("%f", &num2);
-	switch(Operator)
-			{
+	switch(Operator[0]){
   			case '+':
   				result = num1 + num2;
+                printf("Result is %.1f",result);
   				break;
   			case '-':
   				result = num1 - num2;
+                printf("Result is %.1f",result);
   				break;  			
   			case '*':
   				result = num1 * num2;
+                printf("Result is %.1f",result);
   				break;
   			case '/':
   				result = num1 / num2;
+                printf("Result is %.1f",result);
   				break;
 			default:
 				printf("You have entered an Invalid Operator ");				    			
 			}
-
-printf("The result of %.1f %c %.1f  = %.2f", num1, Operator, num2, result);
-
 return 0;
 }
 ```
+![](/images/13.jpg)
 ---
 ## 14. To calculate reverse of a number
 ```C
