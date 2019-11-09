@@ -918,7 +918,7 @@ int main(){
 ```
 ![](/images/29.jpg)
 ---
-## 30. 
+## 30. Program to implement linear serach and binary search
 ```C
 #include <stdio.h>
 #include <stdlib.h>
