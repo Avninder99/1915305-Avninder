@@ -3,7 +3,7 @@
 
 # My Details
 ### Name :- Avninder Preet Singh
-### Branch :- CSE C1
+### Branch :- CSE - C1
 ### Roll number :- 1915305
 ### University Roll Number :- 1905779
 ### Submitted to :- Ms. Goldendeep Kaur
