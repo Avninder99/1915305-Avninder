@@ -6,7 +6,8 @@
 ### Branch :- CSE C1
 ### Roll number :- 1915305
 ### University Roll Number :- 1905779
-## My Codes
+### Submitted to :- Ms. Goldendeep Kaur
+## My Programs
 ## 1. To Print your name using puts
 
 ```C
